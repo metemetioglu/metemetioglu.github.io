@@ -14,7 +14,7 @@ a{
     padding: 2em;  
 }
 
-.flex-container{
+.episodesflex{
     display: flex;
     flex-direction: row;
     justify-content: center;
