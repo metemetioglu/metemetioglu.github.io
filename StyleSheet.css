@@ -11,6 +11,6 @@
     margin: 1pc;
 }
 
-h3:hover, p:hover , a:hover {
+p:hover , a:hover {
     background-color: #f0d89f;
   }
