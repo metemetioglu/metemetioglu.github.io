@@ -1,0 +1,12 @@
+.header {
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.bubblebox {
+    font-family: 'Times New Roman', Times, serif;
+    outline: dashed #7A5A10;
+    padding: 0.5em; 
+    width: fit-content; 
+    border-radius: 50px;
+    margin: 1pc;
+}
