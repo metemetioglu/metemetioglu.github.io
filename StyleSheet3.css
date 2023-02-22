@@ -21,8 +21,12 @@ a{
     justify-content: space-around;
 }
 
+a:link {
+    color:#7A715B;
+    text-decoration: none;
+}
+
 a:visited{
     text-decoration: none;
-    color: #7A715B;
-    
+    color:#5e5745   
 }

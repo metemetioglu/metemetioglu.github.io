@@ -2,3 +2,14 @@
     font-family:'Times New Roman', Times, serif;
     color: whitesmoke;
 }
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(226, 224, 224);
+    
+}
