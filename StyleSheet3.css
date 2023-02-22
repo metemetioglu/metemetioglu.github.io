@@ -1,4 +1,28 @@
-.readingresponse {
-    font-family:'Times New Roman', Times, serif;
+.readingresponse{
+    font-family: 'Times New Roman', Times, serif;
     color: #7A715B
+}
+
+p{
+    border: solid #7A715B; width: fit-content;
+    margin: 1.5pc;
+    padding: 1.5pc;
+}
+
+a{
+    margin-top: 3pc;
+    padding: 1pc;  
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.flex-container:visited{
+    text-decoration: none;
+    color: #7A715B;
+    
 }
