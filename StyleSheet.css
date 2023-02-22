@@ -16,10 +16,15 @@
 .bubblebox:hover {
     background-color: #f8d37b;
 }
+a:link {
+    color: #2b1f05;
+    text-decoration: none;
+}
 
 a:visited{
     text-decoration: none;
-    color: #2b1f05;
+    color: #0f0b02;
+    
 }
 
 .bubbleboxflex{
