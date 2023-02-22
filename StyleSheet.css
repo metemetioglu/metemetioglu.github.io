@@ -1,5 +1,5 @@
 .header {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
 }
 
 .bubblebox {
@@ -10,3 +10,7 @@
     border-radius: 50px;
     margin: 1pc;
 }
+
+h3:hover, p:hover , a:hover {
+    background-color: #f0d89f;
+  }
