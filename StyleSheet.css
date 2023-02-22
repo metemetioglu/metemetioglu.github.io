@@ -1,9 +1,11 @@
 .header {
     font-family:'Times New Roman', Times, serif;
+    color: #2b1f05;
 }
 
 .bubblebox {
     font-family: 'Times New Roman', Times, serif;
+    color: #2b1f05;
     outline: dashed #7A5A10;
     padding: 0.5em; 
     width: fit-content; 
@@ -11,6 +13,12 @@
     margin: 1pc;
 }
 
-p:hover , a:hover {
-    background-color: #f0d89f;
-  }
+.bubblebox:hover {
+    background-color: #f8d37b;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #2b1f05;
+    
+}
