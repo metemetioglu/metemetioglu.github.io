@@ -34,3 +34,13 @@ a:visited{
     justify-content: center;
     justify-content: space-around;
 }
+
+.footer{
+    font-family:'Times New Roman', Times, serif;
+    color: #2b1f05;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    
+}
