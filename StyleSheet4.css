@@ -1,7 +1,13 @@
 .header{
-    font-family: fantasy;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.requirements{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .response{
-    font-family: serif;
+    font-family:'Courier New', Courier, monospace
 }
