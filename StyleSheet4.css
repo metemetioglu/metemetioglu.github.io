@@ -35,3 +35,8 @@ a:visited{
     font-size: 14pt;
  
 }
+
+a:active{
+    color:lightgreen;
+    font-weight: bolder;
+}
