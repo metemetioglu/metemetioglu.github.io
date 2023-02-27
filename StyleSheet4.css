@@ -1,10 +1,33 @@
+.headerflex{
+    display: flex;
+    justify-content: center;
+
+}
 .header:hover{
     color: rgb(76, 218, 76);
+    border: solid lightgreen;
+    width: fit-content;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 00.25em;
+    padding-bottom: 0.25em;
 }
 
 .header{
     font-family: monospace;
     font-weight: bolder;
+}
+
+.bodyflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.responseflex{
+    display: flex;
+    justify-content: center;
 }
 
 .requirements{
@@ -27,4 +50,13 @@ a:visited{
     text-decoration: none;
     color: darkslategray;
 
+}
+
+p{
+    outline: dotted darkslategray;
+    padding: 1em
+}
+a{
+    display: flex;
+    justify-content: center;
 }
