@@ -19,6 +19,11 @@
     width: 100%;
 }
 
+a:hover{
+    font-weight: bolder;
+    color:lightgreen;
+}
+
 a:link {
     color: black;
     font-family: monospace;
@@ -34,9 +39,4 @@ a:visited{
     text-decoration: none;
     font-size: 14pt;
  
-}
-
-a:active{
-    color:lightgreen;
-    font-weight: bolder;
 }
