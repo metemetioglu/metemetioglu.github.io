@@ -1,6 +1,22 @@
-.readingresponse {
+.header {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.responsetextflex {
+    display: flex;
+    justify-content: center;
+}
+.responsetext {
     font-family:'Times New Roman', Times, serif;
     color: whitesmoke;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 a:link {
@@ -8,7 +24,7 @@ a:link {
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     text-decoration: none;
     color: rgb(226, 224, 224);
 }
