@@ -1,10 +1,10 @@
+.header:hover{
+    color: rgb(76, 218, 76);
+}
+
 .header{
     font-family: monospace;
     font-weight: bolder;
-}
-
-.header:hover{
-    color: rgb(76, 218, 76);
 }
 
 .requirements{
@@ -14,4 +14,16 @@
 
 .response{
     font-family:'Courier New', Courier, monospace
+}
+
+a:link{
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: darkslategrey;
+    font-family: monospace;
+    
 }
