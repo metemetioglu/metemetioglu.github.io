@@ -10,13 +10,17 @@
 }
 .responsetext {
     font-family:'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: #7A715B;
+    background-color: whitesmoke;
+    padding: 1em;
+    border: thick solid #494436;
 }
 
 .footerflex {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 1em;
 }
 
 a:link {
