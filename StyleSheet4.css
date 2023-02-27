@@ -26,8 +26,9 @@
 }
 
 .responseflex{
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+   
 }
 
 .requirements{
@@ -59,4 +60,10 @@ p{
 a{
     display: flex;
     justify-content: center;
+}
+
+.bottompic{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
 }
