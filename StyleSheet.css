@@ -1,6 +1,9 @@
 .header {
     font-family:'Times New Roman', Times, serif;
     color: #2b1f05;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 a:link {
@@ -14,25 +17,56 @@ a:visited{
     
 }
 
-.bubblebox {
-    font-family: 'Times New Roman', Times, serif;
-    color: #2b1f05;
-    outline: dashed #7A5A10;
-    padding: 0.5em; 
-    width: fit-content; 
-    border-radius: 50px;
-    margin: 1pc;
+.bubbleboxflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .bubblebox:hover{
     background-color: #f8d37b;
 }
 
-.bubbleboxflex{
+.bubblebox {
+    font-family: 'Times New Roman', Times, serif;
+    color: #2b1f05;
+    outline: dashed #7A5A10;
+    padding: 1em; 
+    width: fit-content; 
+    border-radius: 50px;
+    margin: 1pc;
+}
+
+.innerbubbleboxflex {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#homeworktitle {
+    font-weight: bold; 
+    outline: dashed #7A5A10; 
+    padding: 0.5em; 
+    width: fit-content; 
+    border-radius: 100px; 
+    background-color: #f9cf6c;
+}
+
+#aboutmetitle {
+    font-weight: bold; 
+    outline: dashed #7A5A10; 
+    padding: 0.5em; 
+    width: fit-content; 
+    border-radius: 100px; 
+    background-color: #f9cf6c;
 }
 
 .footer{
