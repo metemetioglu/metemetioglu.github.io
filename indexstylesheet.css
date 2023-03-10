@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-arounds;
 }
 
 .header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 #title1 {
