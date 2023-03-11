@@ -26,7 +26,7 @@ p{
     color: #7A715B
 }
 
-/* Episode Menu */
+/* Episode Boxes */
 .episodesflex{
     display: flex;
     flex-direction: row;
@@ -78,7 +78,7 @@ p{
     padding: 1em;
 }
 
-/* Body and Home Button */
+/* Responses */
 
 .responsesflex {
     display: flex;
