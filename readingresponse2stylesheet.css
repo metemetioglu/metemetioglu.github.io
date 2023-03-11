@@ -1,26 +1,8 @@
-.readingresponse{
-    font-family: 'Times New Roman', Times, serif;
-    color: #7A715B
-}
-
-p{
-    border: solid #7A715B; width: fit-content;
-    margin: 1.5em;
-    padding: 1.5em;
-}
-
+/* General */
 a{
     margin-top: 2em;
     padding: 2em;  
 }
-
-.episodesflex{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
-}
-
 a:link {
     color:#7A715B;
     text-decoration: none;
@@ -30,3 +12,79 @@ a:visited{
     text-decoration: none;
     color:#5e5745   
 }
+p{
+    border: solid #7A715B; 
+    width: fit-content;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+/* Title */
+
+#pagetitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7A715B
+}
+
+/* Episode Menu */
+.episodesflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+#episode1 {
+    border: thick double #7A5A10;
+    text-align: center;
+}
+#episode1video {
+    padding: 1em;
+}
+#episode1pic {
+    padding: 1em;
+}
+#episode2 {
+    border: thick double #7A5A10;
+    text-align: center;
+}
+#episode2video {
+    padding: 1em;
+}
+#episode2pic {
+    padding: 1em;
+}
+#episode3 {
+    border: thick double #7A5A10;
+    text-align: center;
+}
+#episode3video {
+    padding: 1em;
+}
+#episode3pic {
+    padding: 1em;
+}
+#episode4 {
+    border: thick double #7A5A10;
+    text-align: center;
+}
+#episode4video {
+    padding: 1em;
+}
+#episode4pic {
+    padding: 1em;
+}
+
+/* Body and Home Button */
+#responsesflex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#responses {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7A715B
+}
+
