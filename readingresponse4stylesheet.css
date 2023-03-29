@@ -8,3 +8,38 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #b12228;
 }
+
+/* Requirements Box */
+
+#requirementsflex {
+    display: flex;
+    justify-content: center;
+}
+
+#requirements {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b12228;
+}
+
+/* Home Button */
+
+#footerflex {
+    display: flex;
+    justify-content: center;
+   
+}
+#footer {
+    padding: 1em;
+}
+
+a:link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #b12228;
+}
+
+a:visited {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #b12228;
+}
