@@ -1,45 +1,62 @@
-.headerflex{
-    display: flex;
-    justify-content: center;
-
-}
-.header:hover{
+/* Header */
+#header:hover{
     color: rgb(76, 218, 76);
     border: solid lightgreen;
-    width: fit-content;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 00.25em;
-    padding-bottom: 0.25em;
+    display: flex;
+    justify-content: center;
 }
 
-.header{
+#headerflex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#header{
     font-family: monospace;
     font-weight: bolder;
+    text-align: center;
 }
 
-.bodyflex{
+.subheaderflex{
     display: flex;
     justify-content: center;
     flex-direction: row;
     justify-content: space-around;
+    padding: 2em;
+    
 }
 
-.responseflex{
-    display: flex; 
-    flex-direction: column;
-   
-}
-
-.requirements{
+/* Link to Interview */
+.articlelink{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 
-.response{
-    font-family:'Courier New', Courier, monospace
+/* Response  */
+#responseflex {
+    display: flex;
+    justify-content: center;
 }
 
+#response {
+    font-family:'Courier New', Courier, monospace;
+    width: 600px;
+    text-align: center;
+}
+
+/* Bottom Pic */
+#bottompicflex {
+    display: flex;
+    justify-content: center;
+}
+
+#bottompic {
+    padding: 1em;
+}
+
+/* Home Button */
 a:link{
     font-family: monospace;
     text-decoration: none;
@@ -62,8 +79,3 @@ a{
     justify-content: center;
 }
 
-.bottompic{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-}
