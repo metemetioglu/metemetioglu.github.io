@@ -9,6 +9,24 @@
     color: #b12228;
 }
 
+/* Disney Pics */
+#disneypic1flex {
+    display: flex;
+    justify-content: center;
+    width: 300;
+}
+
+#stitch {
+    position: relative;
+    width: 20px;
+    height: 30px;
+    transition: transform 2s;
+}
+
+header:hover #stitch {
+    transform: translateX(1750px);
+}
+
 /* Requirements Box */
 
 #requirementsflex {
@@ -19,6 +37,17 @@
 #requirements {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #b12228;
+}
+
+/* Response */
+#responseflex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#response {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
 }
 
 /* Home Button */
