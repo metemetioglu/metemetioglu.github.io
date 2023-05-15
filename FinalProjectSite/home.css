@@ -175,6 +175,24 @@
     transition: 0.75s;
 }
 
+#bestsellersall a:link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+    padding: 1em;
+}
+
+#bestsellersall a:visited {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+    padding: 1em;
+}
+
 #launchcard {
     display: flex;
     justify-content: center;
