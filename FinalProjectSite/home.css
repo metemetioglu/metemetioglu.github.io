@@ -175,4 +175,9 @@
     transition: 0.75s;
 }
 
-/* Hyperlink Fix */
+#launchcard {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    transition: 0.75s;
+}
