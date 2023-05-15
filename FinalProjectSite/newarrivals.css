@@ -1,0 +1,88 @@
+#headerflex {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    background-color:#17412E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+.navbar a:link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color:#f6efdf;
+    text-align: center;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color:#f6efdf;;
+    text-align: center;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:#f6efdf;
+    color: #17412E;
+}
+
+/* New Arrivals */
+#newarrivalstitlecard {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;;
+}
+
+#newarrivalsflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.newarrivals {
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+    padding: 1em;
+
+}
+
+.newarrivals a {
+    font-size: small;
+    text-decoration: none;
+    color: #17412E;
+}
+
+.newarrivals:hover a {
+    color: #f6efdf;
+    transition: 0.75s;
+}
+
+.newarrivals:hover {
+    background-color: #17412E;
+    color: #f6efdf;
+    transition: 0.75s;
+}
+
+/* Rows */
+
+#rowflex {
+    display: flex;
+    flex-direction: column;
+}
