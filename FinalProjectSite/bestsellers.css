@@ -1,0 +1,81 @@
+#headerflex {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    background-color:#17412E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+.navbar a:link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color:#f6efdf;
+    text-align: center;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color:#f6efdf;;
+    text-align: center;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:#f6efdf;
+    color: #17412E;
+}
+
+/* New Arrivals */
+#bestsellerstitlecard {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;;
+}
+
+#bestsellersflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.bestsellers {
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+    padding: 1em;
+
+}
+
+.bestsellers a {
+    font-size: small;
+    text-decoration: none;
+    color: #17412E;
+}
+
+.bestsellers:hover a {
+    color: #f6efdf;
+    transition: 0.75s;
+}
+
+.bestsellers:hover {
+    background-color: #17412E;
+    color: #f6efdf;
+    transition: 0.75s;
+}
