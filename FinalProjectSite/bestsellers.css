@@ -79,3 +79,19 @@
     color: #f6efdf;
     transition: 0.75s;
 }
+
+#companymessageflex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#companymessage {
+    background-color: #17412E;
+    color: #f6efdf;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 2em;
+}
