@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="bestsellers.css">
+        <script src="viewingmode.js" defer></script>
     </head>
     
     <header>
@@ -30,6 +31,12 @@
             <h2> Best Sellers </h2>
         </div>
 
+        <div id="buttonflex">
+            <div id="button">
+                <button type="button" onclick="document.getElementById('companymessage').style.display='none'">No Text</button>
+            </div>
+        </div>
+
         <!-- New Arrivals -->
         <div id="rowflex"> 
             <div id="bestsellersflex">
@@ -37,19 +44,21 @@
                 <!-- Item 1 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product1" height="300px" width="300px">
-                    <h5> Product #1 </h5>
-                    <p> $6.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #1 </h5>
+                        <p> $6.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div>
                 
                 <!-- Describing paragraph -->
-                <div id="companymessagflex">
+                <div id="companymessageflex">
                     <div id="companymessage"> 
                         <div id="explanationofpage">
-                            <h5> These are the top 7 best selling items of the week</h5>
+                            <h5 id="notext1"> These are the top 7 best selling items of the week</h5>
                         </div>
                         <div id="explanationofstats">
-                            <p> Created to achieve an aura of simplism that is unparallelled by other companies. </p>
+                            <p id="notext2"> Created to achieve an aura of simplism that is unparallelled by other companies. </p>
                         </div>
                     </div>
                 </div>
@@ -57,50 +66,62 @@
                 <!-- Item 2 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product2" height="300px" width="300px">
-                    <h5> Product #2 </h5>
-                    <p> $8.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #2 </h5>
+                        <p> $8.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div> 
-            
             </div>
         </div>
             <div id="bestsellersflex">
                 <!-- Item 1 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product1" height="300px" width="300px">
-                    <h5> Product #3 </h5>
-                    <p> $10.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #3 </h5>
+                        <p> $10.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div>
                  <!-- Item 2 -->
                  <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product2" height="300px" width="300px">
-                    <h5> Product #4 </h5>
-                    <p> $15.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
-                 </div>
+                    <div id="productdescription"> 
+                        <h5> Product #4 </h5>
+                        <p> $15.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
+                </div>
                   <!-- Item 3 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product3" height="300px" width="300px">
-                    <h5> Product #5 </h5>
-                    <p> $20.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #5 </h5>
+                        <p> $20.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div>
             </div>
             <div id="bestsellersflex">
                 <!-- Item 1 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product1" height="300px" width="300px">
-                    <h5> Product #6 </h5>
-                    <p> $22.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #6 </h5>
+                        <p> $22.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div>
+
                  <!-- Item 2 -->
                 <div class="bestsellers">
                     <img src="Assets/sampleproductimage.png" alt="product2" height="300px" width="300px">
-                    <h5> Product #7 </h5>
-                    <p> $24.00 </p>
-                    <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    <div id="productdescription">
+                        <h5> Product #7 </h5>
+                        <p> $24.00 </p>
+                        <a href="https://metemetioglu.github.io/FinalProjectSite/newarrivalsample.html"> View Product </a>
+                    </div>
                 </div> 
             </div>
         </div> 

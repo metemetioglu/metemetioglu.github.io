@@ -95,3 +95,13 @@
     height: 300px;
     padding: 2em;
 }
+ 
+#buttonflex {
+    display: flex;
+    justify-content: center;
+    color: #f6efdf;
+    outline: #17412E;
+    width: auto;
+    padding: 1em;
+    margin-top: 1em;
+}
