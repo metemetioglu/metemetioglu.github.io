@@ -199,3 +199,21 @@
     padding: 1em;
     transition: 0.75s;
 }
+
+#contactusflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace; 
+    padding: 0.5em;
+}
+
+#contactusflex a:link {
+    text-decoration: none;
+    color: #17412E;
+}
+
+#contactusflex a:visited {
+    text-decoration: none;
+    color: #17412E;
+}

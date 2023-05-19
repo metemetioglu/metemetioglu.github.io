@@ -105,3 +105,23 @@
     padding: 1em;
     margin-top: 1em;
 }
+
+#contactusflex {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#contactusflex a:link {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #17412E;
+}
+
+#contactusflex a:visited {
+    text-decoration: none;
+    color: #17412E;
+    font-family: 'Courier New', Courier, monospace;
+}

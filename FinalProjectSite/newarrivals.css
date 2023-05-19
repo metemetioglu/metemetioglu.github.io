@@ -86,3 +86,13 @@
     display: flex;
     flex-direction: column;
 }
+
+#contactusflex a:link {
+    text-decoration: none;
+    color: #17412E;
+}
+
+#contactusflex a:visited {
+    text-decoration: none;
+    color: #17412E;
+}
